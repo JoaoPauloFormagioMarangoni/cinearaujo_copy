@@ -1,0 +1,79 @@
+section div.titlebombo {
+    margin: 30px 0;
+}
+section div.titlebombo p {
+    color: #858282f5;
+    margin-top: 10px;
+}
+
+section div.titlebombo p a {
+    color: #dd282a;
+    font-weight: bold;
+}
+
+section div.titlebombo p a:hover {
+    color: #0056b3;
+}
+
+.marginBottom {
+    margin-bottom: 30px;
+}
+
+#form label {
+    margin-bottom: 7px;
+    color: #000000;
+    font-weight: bold;
+}
+
+#form div {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+}
+
+#form div input {
+    border: 1px solid #dad8d81f;
+    border-radius: 4px;
+    height: 40px;
+    background: #eee;
+    padding-left: 10px;
+}
+
+.withoutMargin {
+    margin-right: 0!important;
+}
+
+#form textarea {
+    width: 100%;
+    min-height: 20%;
+    max-width: 100%;
+    min-width: 100%;
+    border: 1px solid #dad8d81f;
+    border-radius: 4px;
+    margin-top: 7px;
+    background: #eee;
+    padding: 10px;
+}
+
+#submit {
+    margin-bottom: 60px;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: #28a745;
+    color: #ffffff;
+    font-size: 12pt;
+    width: 160px;
+    transition: background .5s;
+}
+
+#submit:hover {
+    background: #1d7030;
+}
+
+footer {
+    clear: both;
+}

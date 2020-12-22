@@ -1,0 +1,81 @@
+div.linha {
+    height: 40px;
+    width: 100%;
+    border-bottom: 1px solid #d2d2d2;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .grupo .linha>p {
+    font-size: 15pt;
+}
+
+.linha::after {
+    content: "+";
+    margin-right: 10px;
+    color: #d5282a;
+}
+
+.abra {
+    display: none;
+    margin-bottom: 60px;
+}
+
+.abra .firstTime {
+    display: flex;
+    padding: 18px;
+    margin-top: 20px;
+    background: #d5282a;
+    border-radius: 6px;
+    color: #ffffff;
+}
+
+.textAlign {
+    width: 150px;
+}
+
+.textAlign2 {
+    width: 250px;
+}
+
+div.grupo:hover>.abra {
+    display: block;
+}
+
+.abra .secondTime {
+    display: flex;
+    padding: 18px;
+}
+
+.abra .secondTime p {
+    font-weight: bold;
+    font-size: 14pt;
+}
+
+.abra .secondTime button {
+    width: 200px;
+    margin-right: 50px;
+    height: 35px;
+    font-size: 11pt;
+    border-radius: 4px;
+    border: none;
+    background: #d5282a;
+    color: #ffffff;
+}
+
+.abra .secondTime ol {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 644px;
+}
+
+.abra .secondTime ol li {
+    padding: 5px;
+    font-size: 10pt;
+    border-radius: 6px;
+    background: #d2d2d2;
+    margin: 0 5px 5px 0;
+}

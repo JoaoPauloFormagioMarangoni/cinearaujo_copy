@@ -1,0 +1,67 @@
+.titlebombo {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titlebombo h1 {
+    color: #d5282a;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30pt;
+}
+
+.titlebombo h2 {
+    color: rgba(0, 0, 0, .6);
+    font-size: 23pt;
+}
+
+.popcorn, .drink {
+    display: flex;
+    flex-wrap: wrap;
+    background: rgba(0, 0, 0, .1);
+    height: 180px;
+    margin-bottom: 40px;
+}
+
+.popcorn>span, .drink>span {
+    background: #d5282a;
+    padding: 50px;
+    border-radius: 6px;
+    width: 250px;
+    height: 180px;
+    margin-right: 20px;
+}
+
+.popcorn span img, .drink span img {
+    width: 65%;
+    height: 100%;
+    margin-left: 32px;
+}
+
+.popcorn div, .drink div {
+    width: 70%;
+    height: 180px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.popcorn div p, .drink div p {
+    width: 230px;
+    margin-right: 10px;
+    height: 55px;
+    border-radius: 6px;
+    font-size: 11pt;
+    border: none;
+    background: rgba(0, 0, 0, .1);
+    font-weight: bold;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.popcorn div p span, .drink div p span {
+    color: rgba(0, 0, 0, .6);
+}

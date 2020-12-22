@@ -1,0 +1,40 @@
+.second div.campo {
+    display: flex;
+    border: 1px solid #92909050;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+
+.second div.campo img {
+    margin: 10px;
+    border-radius: 4px;
+    margin-right: 90px;
+    height: 269px;
+}
+
+.semmargin {
+    margin: -20px 0 20px;
+}
+
+.second div.campo div {
+    margin-right: 20px;
+    margin-top: 30px;
+}
+
+.second div.campo div h2 {
+    margin-bottom: 10px;
+    color: #d5282a;
+    font-weight: bold;
+    font-size: 24pt;
+}
+
+.second div.campo div h3 {
+    margin-bottom: 10px;
+    color: #666666;
+    font-weight: bold;
+}
+
+.second div.campo div p {
+    text-align: justify;
+    color: #4e4e4e;
+}
